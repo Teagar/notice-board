@@ -1,0 +1,16 @@
+{
+    "name": "teagar/ex",
+    "description": "The system only have 1 user",
+    "autoload": {
+        "psr-4": {
+            "Structure\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "teagar",
+            "email": "cyanofc@gmail.com"
+        }
+    ],
+    "require": {}
+}
