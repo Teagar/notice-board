@@ -1,0 +1,20 @@
+{
+    "name": "jonta-sancar/database-handler-php",
+    "version": "1.8.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Handlers\\": "Handlers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonta Sancar",
+            "email": "jontasancar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "minimum-stability": "stable"
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56a0681c83a6beb5965b4a249f65b457",
+    "content-hash": "2d8fa7d7e8465febac1550097a1b34c9",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -67,6 +67,45 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "jonta-sancar/database-handler-php",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Jonta-Sancar/database-handler-php.git",
+                "reference": "7ddf00cce2d02efa0eb452b4064decaaee928899"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Jonta-Sancar/database-handler-php/zipball/7ddf00cce2d02efa0eb452b4064decaaee928899",
+                "reference": "7ddf00cce2d02efa0eb452b4064decaaee928899",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Handlers\\": "Handlers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonta Sancar",
+                    "email": "jontasancar@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Jonta-Sancar/database-handler-php/issues",
+                "source": "https://github.com/Jonta-Sancar/database-handler-php/tree/1.8.0"
+            },
+            "time": "2024-10-07T17:44:01+00:00"
         },
         {
             "name": "phpoption/phpoption",

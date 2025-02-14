@@ -1,5 +1,6 @@
 {
     "name": "teagar/noticeboard",
+    "version": "1.2.0",
     "description": "The system only have 1 user",
     "autoload": {
         "psr-4": {
@@ -16,6 +17,7 @@
         }
     ],
     "require": {
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "jonta-sancar/database-handler-php": "^1.8"
     }
 }

@@ -10,6 +10,7 @@ class ComposerStaticInitf3320c51772cf492b619312d7ffe4117
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '11593ba21b91671cd96d25fe1d07c069' => __DIR__ . '/../..' . '/src/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -18,11 +19,14 @@ class ComposerStaticInitf3320c51772cf492b619312d7ffe4117
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Structure\\' => 10,
         ),
         'P' => 
         array (
             'PhpOption\\' => 10,
+        ),
+        'H' => 
+        array (
+            'Handlers\\' => 9,
         ),
         'G' => 
         array (
@@ -31,6 +35,10 @@ class ComposerStaticInitf3320c51772cf492b619312d7ffe4117
         'D' => 
         array (
             'Dotenv\\' => 7,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -47,13 +55,13 @@ class ComposerStaticInitf3320c51772cf492b619312d7ffe4117
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Structure\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
+        ),
+        'Handlers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jonta-sancar/database-handler-php/Handlers',
         ),
         'GrahamCampbell\\ResultType\\' => 
         array (
@@ -62,6 +70,10 @@ class ComposerStaticInitf3320c51772cf492b619312d7ffe4117
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
