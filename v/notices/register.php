@@ -1,4 +1,3 @@
-
 <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
@@ -17,11 +16,11 @@
 </head>
 <body>
   <div class="container">
-    <form action="/api/avisos/cadastrar.php" class="w-50 mt-5 m-auto" method="post">
+    <form action="/api/notices/register.php" class="w-50 mt-5 m-auto" method="post">
       <h3 class="text-center">Register notice</h3>
       <div class="mb-3">
-        <label for="titulo" class="form-title">Title</label>
-        <input type="text" class="form-control" name="titulo" id="titulo" maxlength="20" required>
+        <label for="title" class="form-title">Title</label>
+        <input type="text" class="form-control" name="title" id="title" maxlength="20" required>
       </div>
 
       <div class="mb-3">
@@ -30,12 +29,12 @@
       </div>
 
       <div class="mb-3">
-        <label for="descricao" class="form-title">Description</label>
-        <textarea class="form-control" name="descricao" id="descricao" required></textarea>
+        <label for="description" class="form-title">Description</label>
+        <textarea class="form-control" name="description" id="description" required></textarea>
       </div>
 
       <div class="mb-3">
-        <input type="submit" class="btn w-100 btn-primary" value="Cadastrar">
+        <input type="submit" class="btn w-100 btn-primary" value="Register">
       </div>
     </form>
   </div>

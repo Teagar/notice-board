@@ -1,12 +1,12 @@
 <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
   
-  if(empty($_GET['aviso']) || !isset($_SESSION['id'])){
+  if(empty($_GET['notices']) || !isset($_SESSION['id'])){
     header("Location: /");
   }
 
-  use App\Controllers\Aviso;
-  $Aviso = new Aviso();
+  use App\Controllers\Notice;
+  $Aviso = new Notice();
   $aviso = $Aviso->selecionar(["id"=>$_GET['aviso']]);
   if(is_array($aviso) && count($aviso) > 0){
     $aviso = $aviso[0];
