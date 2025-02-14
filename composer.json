@@ -1,10 +1,13 @@
 {
-    "name": "teagar/ex",
+    "name": "teagar/noticeboard",
     "description": "The system only have 1 user",
     "autoload": {
         "psr-4": {
-            "Structure\\": "src/"
-        }
+            "App\\": "src/"
+        },
+	"files": {
+	  "src/config.php"
+	}
     },
     "authors": [
         {
