@@ -9,7 +9,7 @@ if(session_status() !== PHP_SESSION_ACTIVE){
 
 use App\Models\Connection;
 
-class Usuario {
+class User {
   function insert($login, $password){
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
     
