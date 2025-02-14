@@ -13,9 +13,9 @@
 
   use App\Controllers\Notice;
 
-  $Aviso = new Notice();
+  $Notice = new Notice();
 
-  $Aviso->create($_POST['title'], $_POST['description'], $_POST['link']);
+  $Notice->create($_POST['title'], $_POST['description'], $_POST['link']);
 
   header("Location: /");
   exit;
